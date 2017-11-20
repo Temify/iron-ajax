@@ -1,6 +1,6 @@
 {
   "name": "iron-ajax",
-  "version": "2.0.6a",
+  "version": "2.0.7",
   "description": "Makes it easy to make ajax calls and parse the response",
   "private": true,
   "authors": [
@@ -14,10 +14,10 @@
   "main": "iron-ajax.html",
   "repository": {
     "type": "git",
-    "url": "git://github.com/temify/iron-ajax.git"
+    "url": "git://github.com/Temify/iron-ajax.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/temify/iron-ajax",
+  "homepage": "https://github.com/Temify/iron-ajax",
   "ignore": [],
   "dependencies": {
     "polymer": "Polymer/polymer#1.9 - 2"
