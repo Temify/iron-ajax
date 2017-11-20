@@ -121,7 +121,9 @@ element.
       headers: {
         type: Object,
         value: function() {
-          return {};
+          return {
+            'Authorization': 'Bearer ' + window.AppStorage ? window.AppStorage.token : ''
+          };
         }
       },
 
