@@ -14,10 +14,10 @@
   "main": "iron-ajax.html",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/iron-ajax.git"
+    "url": "git://github.com/temify/iron-ajax.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/iron-ajax",
+  "homepage": "https://github.com/temify/iron-ajax",
   "ignore": [],
   "dependencies": {
     "polymer": "Polymer/polymer#1.9 - 2"
