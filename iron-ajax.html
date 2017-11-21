@@ -122,7 +122,7 @@ element.
         type: Object,
         value: function() {
           return {
-            'Authorization': 'Bearer ' + window.AppStorage ? window.AppStorage.token : ''
+            'Authorization': 'Bearer ' + (window.AppStorage ? window.AppStorage.token : '')
           };
         }
       },
