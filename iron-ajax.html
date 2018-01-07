@@ -556,6 +556,11 @@ element.
         bubbles: this.bubbles,
         composed: true
       });
+
+      // Custom - unauthorized request -> signout
+      if(window.app && request.xhr.status === 401) {
+        window.app.signOut();
+      }
     },
 
     _discardRequest: function(request) {
