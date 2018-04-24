@@ -371,9 +371,9 @@ element.
           }
         } else if (value !== null) {
           queryParts.push(param + '=' + window.encodeURIComponent(value));
-        } else {
-          queryParts.push(param);
-        }
+        } // else {
+          // queryParts.push(param);
+        // }
       }
 
       return queryParts.join('&');
